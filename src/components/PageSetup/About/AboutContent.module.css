@@ -29,7 +29,7 @@
 }
 .AboutBodyP {
   padding: 0.5rem 0;
-  color: #5e5e5e;
+  color: var(--grey-color);
   font-size: 1.3rem;
   line-height: 1.6;
 }
@@ -48,4 +48,5 @@
 }
 .AboutImg {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 80%;
 }

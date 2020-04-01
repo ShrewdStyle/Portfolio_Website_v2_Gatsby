@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import MyWorkMain from "../components/PageSetup/Work/MyWorkMain"
 
 const MyWork = () => (
   <Layout>
-    <h1>My work boiiis</h1>
+    <MyWorkMain />
   </Layout>
 )
 

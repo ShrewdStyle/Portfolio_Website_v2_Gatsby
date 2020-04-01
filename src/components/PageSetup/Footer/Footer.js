@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className={classes.FooterText}>
           <span className={classes.FooterSpan}>Jake Knight</span> ©
-          {new Date().getFullYear()}, Built with
+          {new Date().getFullYear()}, built with
           {` `}
           <a
             className={classes.FooterLink}

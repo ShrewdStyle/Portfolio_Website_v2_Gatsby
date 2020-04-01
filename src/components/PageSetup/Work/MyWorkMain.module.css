@@ -1,0 +1,23 @@
+.HeaderContainer {
+  height: 500px;
+  background-color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--light-color);
+  padding-bottom: 1rem;
+}
+.SubHeader {
+  color: lightgray;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.ProjectContainer {
+  padding: 10rem;
+}

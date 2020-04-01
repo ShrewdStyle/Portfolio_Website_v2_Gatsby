@@ -27,4 +27,6 @@
 .Logo {
   position: absolute;
   left: 10%;
+  top: 2%;
+  height: 50px;
 }

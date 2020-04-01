@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import classes from "./Navbar.module.css"
+import Logo from "../../../images/KnightSolutions.png"
 
 const Navbar = () => {
   const activeStyle = {
@@ -12,7 +13,7 @@ const Navbar = () => {
     <div>
       <ul className={classes.Navbar}>
         <Link to="/">
-          <div className={classes.Logo}>KS Logo</div>
+          <img className={classes.Logo} src={Logo} alt="KnightSolutions" />
         </Link>
         <li>
           <Link className={classes.NavLink} activeStyle={activeStyle} to="/">
@@ -23,9 +24,9 @@ const Navbar = () => {
           <Link
             className={classes.NavLink}
             activeStyle={activeStyle}
-            to="/work"
+            to="/projects"
           >
-            Work
+            Projects
           </Link>
         </li>
         <li>
