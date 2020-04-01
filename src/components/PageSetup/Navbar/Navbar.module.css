@@ -1,0 +1,26 @@
+.Navbar {
+  display: flex;
+  padding: 1.5rem 4rem;
+  justify-content: flex-end;
+  background-color: #333;
+}
+
+.Navbar li {
+  list-style: none;
+  padding: 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+a:hover {
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.Logo {
+  position: absolute;
+  left: 10%;
+}
