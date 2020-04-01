@@ -1,0 +1,51 @@
+.HeaderContainer {
+  background-color: var(--dark-color);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutHeader {
+  font-size: 4rem;
+  color: var(--light-color);
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+.AboutSubHeader {
+  color: lightgray;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.AboutBodyContainer {
+  padding: 10% 20%;
+}
+
+.AboutBodyHeader {
+  font-size: 2.8rem;
+  color: var(--dark-color);
+  margin-bottom: 1.5rem;
+}
+.AboutBodyP {
+  padding: 0.5rem 0;
+  color: #5e5e5e;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+.AboutProject {
+  color: var(--third-color);
+}
+.AboutProject:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.AboutImgContainer {
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.AboutImg {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}

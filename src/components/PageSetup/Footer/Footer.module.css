@@ -1,0 +1,37 @@
+.FooterContainer {
+  background-color: var(--dark-alt-color);
+}
+.Social {
+  display: flex;
+  padding: 4rem 2rem;
+  justify-content: center;
+}
+
+.Icon {
+  padding: 0.8rem;
+  background-color: var(--dark-color);
+  margin: 0 1.3rem;
+  transition: all 1s;
+}
+.Icon:hover {
+  background-color: orange;
+  padding-bottom: none;
+}
+.IconA:hover {
+  border: none;
+  padding-bottom: none;
+}
+.FooterText {
+  text-align: center;
+  color: #ccc;
+  padding: 3rem 2rem;
+}
+.FooterSpan {
+  color: var(--third-color);
+}
+.FooterLink {
+  color: var(--third-color);
+}
+.FooterLink:hover {
+  text-decoration: underline;
+}

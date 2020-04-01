@@ -1,8 +1,9 @@
 .Navbar {
   display: flex;
-  padding: 1.5rem 4rem;
+  padding: 2rem 8rem;
   justify-content: flex-end;
-  background-color: #333;
+  background-color: var(--dark-color);
+  border-bottom: 2px solid var(--third-color);
 }
 
 .Navbar li {
@@ -10,14 +11,17 @@
   padding: 0 1.5rem;
 }
 
-a {
+.NavLink {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  border-bottom: 3px solid transparent;
 }
-a:hover {
+
+.NavLink:hover {
   border-bottom: 3px solid #ccc;
   padding-bottom: 0.5rem;
+  transition: border-bottom 0.5s;
 }
 
 .Logo {

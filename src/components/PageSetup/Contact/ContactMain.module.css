@@ -1,0 +1,47 @@
+.HeaderContainer {
+  height: 500px;
+  background-color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContactHeader {
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--light-color);
+  padding-bottom: 1rem;
+}
+.ContactSubHeader {
+  color: lightgray;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.FormInput,
+.FormTextArea {
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  width: 40%;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+.FormInput {
+  margin-bottom: 20px;
+}
+.FormTextArea {
+  margin-bottom: 2rem;
+  height: 200px;
+}

@@ -1,0 +1,25 @@
+.Container {
+  height: 95vh;
+  background: url("../../../images/main-img.jpg") no-repeat center center /
+    cover;
+}
+.ContentContainer {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  font-size: 4rem;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 900;
+  color: var(--light-color);
+}
+
+.HeaderBody {
+  padding: 2rem 0 4rem 0;
+  color: var(--light-color);
+  font-size: 17px;
+}
