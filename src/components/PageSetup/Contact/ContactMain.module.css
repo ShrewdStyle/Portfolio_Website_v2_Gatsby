@@ -26,11 +26,42 @@
   padding: 6rem 0;
 }
 
+.StatusContainer {
+  background-color: #f4f4f4;
+  outline: none;
+  border-top: 6px solid var(--third-color);
+  width: 55%;
+  padding: 4rem 1rem 6rem 1rem;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StatusHeader {
+  font-size: 2.1rem;
+}
+.Status {
+  font-size: 3.2rem;
+  color: var(--third-color);
+  padding: 0.8rem 0;
+}
+.StatusText {
+  font-size: 1.6rem;
+  padding-top: 0.4rem;
+  color: var(--grey-color);
+  font-family: "Rubik", sans-serif;
+}
+.StatusText span {
+  font-weight: bold;
+}
+
 .FormInput,
 .FormTextArea {
-  font-size: 17px;
+  font-size: 20px;
   font-family: "Rubik", sans-serif;
-  width: 40%;
+  width: 55%;
   padding: 10px 15px;
   border: none;
   border-bottom: 2px solid var(--primary-color);

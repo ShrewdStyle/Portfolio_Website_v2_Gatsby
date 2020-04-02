@@ -1,39 +1,39 @@
 import React from "react"
-import classes from "./ProjectTwo.module.css"
+import classes from "./ProjectFour.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode, faChartLine } from "@fortawesome/free-solid-svg-icons"
+import { faCode, faShoppingCart } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
-import TimeManagement from "../../../../images/items/project2-v2.png"
+import EverythingCyberpunk from "../../../../images/items/project4.png"
 
-const ProjectTwo = () => {
+const ProjectFour = () => {
   return (
     <div className={classes.ProjectContainer}>
       <div className={classes.ProjectPhoto}>
         <img
           className={classes.ProjectImg}
-          src={TimeManagement}
-          alt="TimeManagement"
+          src={EverythingCyberpunk}
+          alt="Everything Cyberpunk"
         />
         <div className={classes.ProjectDiv}></div>
       </div>
       <div className={classes.ProjectInfo}>
-        <div className={classes.ProjectName}>TimeManagement</div>
+        <div className={classes.ProjectName}>Everything Cyberpunk 2077</div>
         <div className={classes.ProjectText}>
-          A time management web application to help monitor and analyse your
-          daily activities to improve productivity.
+          A newsletter based on the RPG Cyberpunk 2077 which is currently being
+          developed by CD Projekt Red.
         </div>
         <div className={classes.ProjectPoints}>
           <ul className={classes.ProjectList}>
             <li className={classes.ProjectElements}>
               <FontAwesomeIcon className={classes.ProjectIcon} icon={faCode} />
-              Built with React
+              Vanilla JavaScript
             </li>
             <li className={classes.ProjectElements}>
               <FontAwesomeIcon
                 className={classes.ProjectIcon}
-                icon={faChartLine}
+                icon={faShoppingCart}
               />
-              Dynamic Analytical Chart
+              Shopping Basket
             </li>
           </ul>
         </div>
@@ -45,4 +45,4 @@ const ProjectTwo = () => {
   )
 }
 
-export default ProjectTwo
+export default ProjectFour

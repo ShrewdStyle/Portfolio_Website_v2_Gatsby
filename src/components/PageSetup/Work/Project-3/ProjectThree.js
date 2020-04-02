@@ -1,22 +1,24 @@
 import React from "react"
-import classes from "./ProjectTwo.module.css"
+import classes from "./ProjectThree.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode, faChartLine } from "@fortawesome/free-solid-svg-icons"
-import TimeManagement from "../../../../images/items/project2-v2.png"
+import { faCode } from "@fortawesome/free-solid-svg-icons"
+import { faCloudscale } from "@fortawesome/free-brands-svg-icons"
+import { Link } from "gatsby"
+import CloudWebTraining from "../../../../images/items/project3-v2.png"
 
-const ProjectTwo = () => {
+const ProjectThree = () => {
   return (
     <div className={classes.ProjectContainer}>
       <div className={classes.ProjectPhoto}>
         <img
           className={classes.ProjectImg}
-          src={TimeManagement}
-          alt="TimeManagement"
+          src={CloudWebTraining}
+          alt="Cloud Web Training"
         />
         <div className={classes.ProjectDiv}></div>
       </div>
       <div className={classes.ProjectInfo}>
-        <div className={classes.ProjectName}>TimeManagement</div>
+        <div className={classes.ProjectName}>Cloud Web Training</div>
         <div className={classes.ProjectText}>
           A time management web application to help monitor and analyse your
           daily activities to improve productivity.
@@ -25,21 +27,23 @@ const ProjectTwo = () => {
           <ul className={classes.ProjectList}>
             <li className={classes.ProjectElements}>
               <FontAwesomeIcon className={classes.ProjectIcon} icon={faCode} />
-              Built with React
+              SASS Compiled
             </li>
             <li className={classes.ProjectElements}>
               <FontAwesomeIcon
                 className={classes.ProjectIcon}
-                icon={faChartLine}
+                icon={faCloudscale}
               />
-              Dynamic Analytical Chart
+              Website Animation
             </li>
           </ul>
         </div>
-        <button className="btnProject my-2">Project Overview</button>
+        <Link>
+          <button className="btnProject my-2">Project Overview</button>
+        </Link>
       </div>
     </div>
   )
 }
 
-export default ProjectTwo
+export default ProjectThree

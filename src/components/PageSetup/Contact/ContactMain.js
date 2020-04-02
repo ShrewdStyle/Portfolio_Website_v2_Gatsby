@@ -12,18 +12,18 @@ const ContactMain = () => {
         </div>
       </div>
       <div className={classes.FormContainer}>
-        <input
-          className={classes.FormInput}
-          type="text"
-          placeholder="Your name"
-        />
-        <input
-          className={classes.FormInput}
-          type="email"
-          placeholder="Your e-mail"
-        />
-        <textarea className={classes.FormTextArea} placeholder="Message" />
-        <button className="btnTransparentSecondary my-2">Submit</button>
+        <div className={classes.StatusContainer}>
+          <div className={classes.StatusHeader}>Status</div>
+          <div className={classes.Status}>Available</div>
+          <div className={classes.StatusText}>
+            I'm currently looking for new opportunities from{" "}
+            <span>May 2020.</span>
+          </div>
+        </div>
+        <input className={classes.FormInput} type="text" placeholder="Name" />
+        <input className={classes.FormInput} type="email" placeholder="Email" />
+        <textarea className={classes.FormTextArea} placeholder="Your Message" />
+        <button className="btnTransparentSecondary my-2">Send Message</button>
       </div>
     </div>
   )

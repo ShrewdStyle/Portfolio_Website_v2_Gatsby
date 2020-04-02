@@ -41,34 +41,40 @@ a {
 
 .btnTransparent {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 1.1rem 2.6rem;
   border: solid 3px var(--primary-color);
   background-color: transparent;
   cursor: pointer;
   color: var(--light-color);
   font-size: 1.2rem;
-  transition: all 0.5s;
+  transition: all 0.3s;
   outline: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  border-radius: 1000px;
 }
 .btnTransparent:hover {
   background-color: var(--primary-color);
-  color: var(--dark-color);
 }
 
 .btnTransparentSecondary {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 1.2rem 3rem;
   border: solid 3px var(--third-color);
-  background-color: transparent;
+  background-color: var(--third-color);
   cursor: pointer;
-  color: var(--dark-color);
-  font-size: 1.2rem;
-  transition: all 0.5s;
+  color: var(--light-color);
+  font-size: 1.4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  transition: all 0.3s;
   outline: none;
+  border-radius: 1000px;
 }
 .btnTransparentSecondary:hover {
-  background-color: var(--third-color);
+  background-color: transparent;
   color: var(--dark-color);
+  transform: scale(1.1) perspective(1px);
 }
 
 .btnProject {
@@ -101,4 +107,11 @@ a {
   background: lightgray;
   display: block;
   margin: 5rem auto 5rem auto;
+}
+.bottomLineAlt {
+  height: 3px;
+  width: 100%;
+  background: lightgray;
+  display: block;
+  margin: 1rem auto 5rem auto;
 }

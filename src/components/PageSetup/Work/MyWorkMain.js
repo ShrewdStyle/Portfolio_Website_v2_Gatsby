@@ -2,6 +2,8 @@ import React from "react"
 import classes from "./MyWorkMain.module.css"
 import ProjectOne from "./Project-1/ProjectOne"
 import ProjectTwo from "./Project-2/ProjectTwo"
+import ProjectThree from "./Project-3/ProjectThree"
+import ProjectFour from "./Project-4/ProjectFour"
 
 const MyWorkMain = () => {
   return (
@@ -18,6 +20,9 @@ const MyWorkMain = () => {
         <div className="bottomLineSecondary"></div>
         <ProjectTwo />
         <div className="bottomLineSecondary"></div>
+        <ProjectThree />
+        <div className="bottomLineSecondary"></div>
+        <ProjectFour />
       </div>
     </div>
   )

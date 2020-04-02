@@ -3,6 +3,7 @@ import classes from "./ProjectOne.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { faWpforms } from "@fortawesome/free-brands-svg-icons"
+import { Link } from "gatsby"
 import HiddenVenture from "../../../../images/items/project1-v2.png"
 
 const ProjectOne = () => {
@@ -37,7 +38,9 @@ const ProjectOne = () => {
             </li>
           </ul>
         </div>
-        <button className="btnProject my-2">Project Overview</button>
+        <Link to="/hidden-venture">
+          <button className="btnProject my-2">Project Overview</button>
+        </Link>
       </div>
     </div>
   )
