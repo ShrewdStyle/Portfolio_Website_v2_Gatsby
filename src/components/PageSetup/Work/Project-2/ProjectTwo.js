@@ -1,26 +1,25 @@
 import React from "react"
-import classes from "./ProjectOne.module.css"
+import classes from "./ProjectTwo.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode } from "@fortawesome/free-solid-svg-icons"
-import { faWpforms } from "@fortawesome/free-brands-svg-icons"
-import HiddenVenture from "../../../../images/items/project1-v2.png"
+import { faCode, faChartLine } from "@fortawesome/free-solid-svg-icons"
+import TimeManagement from "../../../../images/items/project2-v2.png"
 
-const ProjectOne = () => {
+const ProjectTwo = () => {
   return (
     <div className={classes.ProjectContainer}>
       <div className={classes.ProjectPhoto}>
         <img
           className={classes.ProjectImg}
-          src={HiddenVenture}
-          alt="HiddenVenture"
+          src={TimeManagement}
+          alt="TimeManagement"
         />
         <div className={classes.ProjectDiv}></div>
       </div>
       <div className={classes.ProjectInfo}>
-        <div className={classes.ProjectName}>Hidden Venture</div>
+        <div className={classes.ProjectName}>TimeManagement</div>
         <div className={classes.ProjectText}>
-          A travel website aimed at travellers who want to go to unique
-          destinations around the world.
+          A time management web application to help monitor and analyse your
+          daily activities to improve productivity.
         </div>
         <div className={classes.ProjectPoints}>
           <ul className={classes.ProjectList}>
@@ -31,9 +30,9 @@ const ProjectOne = () => {
             <li className={classes.ProjectElements}>
               <FontAwesomeIcon
                 className={classes.ProjectIcon}
-                icon={faWpforms}
+                icon={faChartLine}
               />
-              Interactive Questions Form
+              Dynamic Analytical Chart
             </li>
           </ul>
         </div>
@@ -43,4 +42,4 @@ const ProjectOne = () => {
   )
 }
 
-export default ProjectOne
+export default ProjectTwo

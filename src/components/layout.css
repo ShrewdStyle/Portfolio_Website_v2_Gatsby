@@ -71,6 +71,23 @@ a {
   color: var(--dark-color);
 }
 
+.btnProject {
+  display: inline-block;
+  padding: 1.2rem 3rem;
+  border: solid 3px var(--primary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: var(--dark-color);
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  outline: none;
+  border-radius: 1000px;
+}
+.btnProject:hover {
+  background-color: transparent;
+  transform: scale(1.1) perspective(1px);
+}
+
 .bottomLine {
   height: 2px;
   width: 5rem;

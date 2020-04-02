@@ -1,6 +1,6 @@
 .ProjectContainer {
   display: flex;
-  margin-bottom: 12rem;
+  margin: 12rem 0;
 }
 
 .ProjectPhoto {
