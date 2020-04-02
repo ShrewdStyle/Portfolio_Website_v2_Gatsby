@@ -1,5 +1,5 @@
 import React from "react"
-import classes from "./ProjectThree.module.css"
+import classes from "../Project-2/ProjectTwo.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { faCloudscale } from "@fortawesome/free-brands-svg-icons"

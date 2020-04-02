@@ -29,14 +29,16 @@
 .StatusContainer {
   background-color: #f4f4f4;
   outline: none;
-  border-top: 6px solid var(--third-color);
   width: 55%;
-  padding: 4rem 1rem 6rem 1rem;
+  padding: 4rem 1rem 7rem 1rem;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-top: 6px solid var(--third-color);
 }
 
 .StatusHeader {
@@ -45,7 +47,7 @@
 .Status {
   font-size: 3.2rem;
   color: var(--third-color);
-  padding: 0.8rem 0;
+  padding: 0.9rem 0;
 }
 .StatusText {
   font-size: 1.6rem;
@@ -64,9 +66,11 @@
   width: 55%;
   padding: 10px 15px;
   border: none;
+  border: 1px solid #ccc;
   border-bottom: 2px solid var(--primary-color);
   background-color: #f4f4f4;
   outline: none;
+  border-radius: 5px;
 }
 
 .FormInput {

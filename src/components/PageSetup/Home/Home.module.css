@@ -33,8 +33,15 @@
   color: var(--light-color);
 }
 
+.Type {
+  font-size: 4rem;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
 .HeaderBody {
   padding: 2rem 0 4rem 0;
   color: var(--light-color);
-  font-size: 17px;
+  font-size: 19px;
 }
