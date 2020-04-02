@@ -32,7 +32,7 @@
   border-top: 6px solid var(--third-color);
   width: 55%;
   padding: 4rem 1rem 6rem 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,7 +59,7 @@
 
 .FormInput,
 .FormTextArea {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Rubik", sans-serif;
   width: 55%;
   padding: 10px 15px;
@@ -70,7 +70,7 @@
 }
 
 .FormInput {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .FormTextArea {
   margin-bottom: 2rem;

@@ -37,7 +37,7 @@ const ProjectTwo = () => {
             </li>
           </ul>
         </div>
-        <Link>
+        <Link to="/time-management">
           <button className="btnProject my-2">Project Overview</button>
         </Link>
       </div>

@@ -37,7 +37,7 @@ const ProjectFour = () => {
             </li>
           </ul>
         </div>
-        <Link>
+        <Link to="/everything-cyberpunk-2077">
           <button className="btnProject my-2">Project Overview</button>
         </Link>
       </div>
