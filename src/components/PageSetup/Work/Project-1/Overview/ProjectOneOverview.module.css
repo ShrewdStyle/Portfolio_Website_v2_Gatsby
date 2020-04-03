@@ -142,3 +142,113 @@
   color: var(--dark-color);
   transform: scale(1.1) perspective(1px);
 }
+
+@media (max-width: 1550px) {
+  .ImageBack {
+    height: 80%;
+  }
+  .MacButtons {
+    top: 13.9%;
+  }
+}
+@media (max-width: 1230px) {
+  .ImageBack {
+    height: 75%;
+  }
+  .MacButtons {
+    top: 17%;
+  }
+}
+@media (max-width: 1030px) {
+  .PhotosContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 25% 3rem 25%;
+    gap: 3rem;
+  }
+}
+@media (max-width: 950px) {
+  .ContentContainer {
+    padding: 8rem 10%;
+  }
+  .TopHeader {
+    font-size: 1.4rem;
+  }
+  .ProjectHeader {
+    font-size: 4rem;
+  }
+  .ProjectSubHeader {
+    font-size: 1.5rem;
+  }
+  .HeaderContainer {
+    padding: 4rem 13%;
+  }
+  .ImageBack {
+    height: 70%;
+  }
+  .MacButtons {
+    top: 20.2%;
+    left: 18%;
+  }
+}
+
+@media (max-width: 710px) {
+  .TopHeader {
+    font-size: 1.2rem;
+  }
+  .ProjectHeader {
+    font-size: 3rem;
+  }
+  .ProjectSubHeader {
+    font-size: 1.4rem;
+  }
+  .PhotosContainer {
+    padding: 1rem 20% 3rem 20%;
+  }
+  .ImageBack {
+    height: 63%;
+  }
+  .MacButtons {
+    top: 24.7%;
+  }
+  .ProjectBtn {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Img {
+    width: 90%;
+  }
+  .ImageBack {
+    height: 65%;
+    width: 80%;
+  }
+  .MacButtons {
+    top: 23.8%;
+    left: 12.3%;
+  }
+  .ButtonsContainer {
+    display: block;
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+  }
+  .ProjectBtn {
+    font-size: 1.4rem;
+    margin: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .PhotosContainer {
+    padding: 1rem 15% 3rem 15%;
+  }
+  .ImageBack {
+    height: 60%;
+    width: 85%;
+  }
+  .MacButtons {
+    top: 27%;
+    left: 13%;
+  }
+}

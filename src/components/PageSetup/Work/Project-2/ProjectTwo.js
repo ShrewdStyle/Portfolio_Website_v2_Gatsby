@@ -17,7 +17,7 @@ const ProjectTwo = () => {
         <div className={classes.ProjectDiv}></div>
       </div>
       <div className={classes.ProjectInfo}>
-        <div className={classes.ProjectName}>TimeManagement</div>
+        <div className={classes.ProjectName}>Time Management</div>
         <div className={classes.ProjectText}>
           A full stack time management web application to help monitor and
           analyse your daily activities to improve productivity.

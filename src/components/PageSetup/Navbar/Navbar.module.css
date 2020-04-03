@@ -38,3 +38,32 @@
   /* top: 20%; */
   height: 50px;
 }
+
+@media (max-width: 710px) {
+  .Logo {
+    display: none;
+  }
+  .Navbar {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .Navbar {
+    padding: 2rem 4rem;
+    justify-content: center;
+  }
+  .Navbar li {
+    list-style: none;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .Navbar li {
+    list-style: none;
+    padding: 0 0.7rem;
+  }
+  .NavLink {
+    font-size: 16px;
+  }
+}

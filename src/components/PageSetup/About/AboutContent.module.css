@@ -1,10 +1,12 @@
 .HeaderContainer {
-  background-color: var(--dark-color);
   height: 500px;
+  background-color: var(--dark-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 2rem;
 }
 .AboutHeader {
   font-size: 4rem;
@@ -48,5 +50,37 @@
 }
 .AboutImg {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
-  width: 80%;
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  .AboutImg {
+    width: 100%;
+  }
+  .AboutImgContainer {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .AboutImgContainer {
+    width: 60%;
+    height: 60%;
+  }
+  .AboutBodyContainer {
+    padding: 10% 10%;
+  }
+}
+@media (max-width: 450px) {
+  .AboutImgContainer {
+    width: 80%;
+    height: 80%;
+  }
+  .AboutHeader {
+    font-size: 3rem;
+  }
+  .AboutSubHeader {
+    font-size: 1.4rem;
+  }
 }

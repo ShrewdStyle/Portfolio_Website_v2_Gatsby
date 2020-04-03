@@ -10,7 +10,7 @@ const ProjectTwoOverview = () => {
     <div className={classes.ProjectContainer}>
       <div className={classes.HeaderContainer}>
         <div className={classes.TopHeader}>MANAGE TIME BETTER</div>
-        <h1 className={classes.ProjectHeader}>TimeManagement</h1>
+        <h1 className={classes.ProjectHeader}>Time Management</h1>
         <div className={classes.ProjectSubHeader}>
           A time management web application to help monitor and analyse your
           daily activities to improve productivity.

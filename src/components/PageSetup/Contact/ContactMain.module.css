@@ -4,7 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 2rem;
 }
 .ContactHeader {
   font-size: 4rem;
@@ -30,12 +32,12 @@
   background-color: #f4f4f4;
   outline: none;
   width: 55%;
-  padding: 4rem 1rem 7rem 1rem;
+  padding: 4rem 2rem 7rem 2rem;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   border-radius: 5px;
   border: 1px solid #ccc;
   border-top: 6px solid var(--third-color);
@@ -54,6 +56,7 @@
   padding-top: 0.4rem;
   color: var(--grey-color);
   font-family: "Rubik", sans-serif;
+  line-height: 1.4;
 }
 .StatusText span {
   font-weight: bold;
@@ -79,4 +82,46 @@
 .FormTextArea {
   margin-bottom: 2rem;
   height: 200px;
+}
+
+@media (max-width: 950px) {
+  .FormInput,
+  .FormTextArea,
+  .StatusContainer {
+    width: 65%;
+  }
+}
+@media (max-width: 650px) {
+  .FormInput,
+  .FormTextArea,
+  .StatusContainer {
+    width: 75%;
+  }
+}
+
+@media (max-width: 420px) {
+  .FormInput,
+  .FormTextArea,
+  .StatusContainer {
+    width: 80%;
+  }
+  .ContactHeader {
+    font-size: 3rem;
+  }
+  .ContactSubHeader {
+    font-size: 1.4rem;
+  }
+  .StatusHeader {
+    font-size: 1.8rem;
+  }
+  .Status {
+    font-size: 2.8rem;
+  }
+  .StatusText {
+    font-size: 1.4rem;
+  }
+  .FormInput,
+  .FormTextArea {
+    font-size: 1.2rem;
+  }
 }
