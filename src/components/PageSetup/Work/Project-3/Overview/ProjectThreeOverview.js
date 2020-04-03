@@ -12,8 +12,8 @@ const ProjectThreeOverview = () => {
         <div className={classes.TopHeader}>CLOUD SOLUTIONS</div>
         <h1 className={classes.ProjectHeader}>Cloud Web Training</h1>
         <div className={classes.ProjectSubHeader}>
-          A time management web application to help monitor and analyse your
-          daily activities to improve productivity.
+          A cloud services website aimed at companies and small businesses who
+          are looking to move into the cloud but are not yet sure how to start.
         </div>
       </div>
       <div className={classes.ImageHeader}>

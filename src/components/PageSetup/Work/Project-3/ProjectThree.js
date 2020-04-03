@@ -20,8 +20,8 @@ const ProjectThree = () => {
       <div className={classes.ProjectInfo}>
         <div className={classes.ProjectName}>Cloud Web Training</div>
         <div className={classes.ProjectText}>
-          A time management web application to help monitor and analyse your
-          daily activities to improve productivity.
+          A cloud services website aimed at companies and small businesses who
+          are looking to move into the cloud but are not yet sure how to start.
         </div>
         <div className={classes.ProjectPoints}>
           <ul className={classes.ProjectList}>
