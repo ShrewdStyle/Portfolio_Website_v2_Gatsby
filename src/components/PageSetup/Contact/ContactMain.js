@@ -12,6 +12,7 @@ const ContactMain = () => {
         </div>
       </div>
       <form
+        name="contact-portfolio"
         method="POST"
         data-netlify="true"
         data-netlify-recaptcha="true"
@@ -25,13 +26,29 @@ const ContactMain = () => {
             <span>May 2020.</span>
           </div>
         </div>
-        <input className={classes.FormInput} type="text" placeholder="Name" />
-        <input className={classes.FormInput} type="email" placeholder="Email" />
-        <textarea className={classes.FormTextArea} placeholder="Your Message" />
-        <div className="spam-f">
+        <input
+          className={classes.FormInput}
+          type="text"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          className={classes.FormInput}
+          name="email"
+          type="email"
+          placeholder="Email"
+        />
+        <textarea
+          className={classes.FormTextArea}
+          placeholder="Your Message"
+          name="message"
+        />
+        <div className={classes.FilterCap}>
           <div data-netlify-recaptcha="true"></div>
         </div>
-        <button className="btnTransparentSecondary my-2">Send Message</button>
+        <button className="btnTransparentSecondary my-2" type="submit">
+          Send Message
+        </button>
       </form>
     </div>
   )
