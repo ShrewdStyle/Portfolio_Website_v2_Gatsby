@@ -28,7 +28,9 @@ const ContactMain = () => {
         <input className={classes.FormInput} type="text" placeholder="Name" />
         <input className={classes.FormInput} type="email" placeholder="Email" />
         <textarea className={classes.FormTextArea} placeholder="Your Message" />
-        <div data-netlify-recaptcha="true"></div>
+        <div className="spam-f">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
         <button className="btnTransparentSecondary my-2">Send Message</button>
       </form>
     </div>
