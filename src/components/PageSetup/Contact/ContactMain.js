@@ -15,7 +15,7 @@ const ContactMain = () => {
         name="contact-portfolio"
         method="POST"
         data-netlify="true"
-        data-netlify-recaptcha="true"
+        data-netlify-honeypot="bot-field"
         className={classes.FormContainer}
       >
         <div className={classes.StatusContainer}>
@@ -26,6 +26,7 @@ const ContactMain = () => {
             <span>May 2020.</span>
           </div>
         </div>
+        <input type="hidden" name="form-name" value="contact-portfolio" />
         <input
           className={classes.FormInput}
           type="text"
@@ -43,9 +44,6 @@ const ContactMain = () => {
           placeholder="Your Message"
           name="message"
         />
-        <div className={classes.FilterCap}>
-          <div data-netlify-recaptcha="true"></div>
-        </div>
         <button className="btnTransparentSecondary my-2" type="submit">
           Send Message
         </button>

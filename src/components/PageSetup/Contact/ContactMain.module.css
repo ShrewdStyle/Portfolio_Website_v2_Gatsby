@@ -84,11 +84,6 @@
   height: 200px;
 }
 
-.FilterCap {
-  text-align: center;
-  margin: 2rem 0;
-}
-
 @media (max-width: 950px) {
   .FormInput,
   .FormTextArea,
