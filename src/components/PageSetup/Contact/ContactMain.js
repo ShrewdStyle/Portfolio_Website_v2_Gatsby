@@ -11,7 +11,12 @@ const ContactMain = () => {
           Have a question or want to work together?
         </div>
       </div>
-      <div className={classes.FormContainer}>
+      <form
+        method="POST"
+        data-netlify="true"
+        data-netlify-recaptcha="true"
+        className={classes.FormContainer}
+      >
         <div className={classes.StatusContainer}>
           <div className={classes.StatusHeader}>Status</div>
           <div className={classes.Status}>Available</div>
@@ -23,8 +28,9 @@ const ContactMain = () => {
         <input className={classes.FormInput} type="text" placeholder="Name" />
         <input className={classes.FormInput} type="email" placeholder="Email" />
         <textarea className={classes.FormTextArea} placeholder="Your Message" />
+        <div data-netlify-recaptcha="true"></div>
         <button className="btnTransparentSecondary my-2">Send Message</button>
-      </div>
+      </form>
     </div>
   )
 }
