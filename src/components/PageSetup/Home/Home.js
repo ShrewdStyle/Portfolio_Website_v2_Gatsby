@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    }, 2000)
+    }, 1500)
   }, [loading])
 
   if (loading) return <Spinner />

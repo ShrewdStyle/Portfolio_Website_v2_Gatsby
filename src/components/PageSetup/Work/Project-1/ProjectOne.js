@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { faWpforms } from "@fortawesome/free-brands-svg-icons"
 import { Link } from "gatsby"
-import HiddenVenture from "../../../../images/items/project1-v2.png"
+import HiddenVenture from "../../../../images/items/project1-v2-scale.png"
 
 const ProjectOne = () => {
   return (
