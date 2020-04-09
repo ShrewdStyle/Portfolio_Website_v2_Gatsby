@@ -62,16 +62,15 @@ const ProjectThreeOverview = () => {
         <div className="bottomLineAlt"></div>
         <div className={classes.OverviewBody}>
           The main issues which i faced when implementing this project was how
-          to set the 'Parallax Scrolling' effect, i was able to add the effect
-          however the main issue that i was facing was the image was overlapping
-          the sections below and not giving me the desired effect.
+          to loop through each slide in my headers slide show.
         </div>
         <div className={classes.OverviewBody}>
-          I found that when trying to implement the Parallax Scrolling effect, i
-          needed to add a z-index for the image and then add an additional
-          padding section below the image so that the image is then hidden under
-          the padding. Once i had put this in place i was the able to achieve
-          the effect i was looking for.
+          I found that when trying to implement the slide show, the issue which
+          i was facing when not being able to loop through the slides was that
+          my 'dots.length' did not match the amount of images which i had put
+          into the slider, therefore my 'slides.length' were never matching my
+          'dots.length'. Once this had been amended i was then able to set a
+          timeout and switch between them without any further issues.
         </div>
         <div className={classes.ButtonsContainer}>
           <a
@@ -82,7 +81,7 @@ const ProjectThreeOverview = () => {
             <button className={classes.ProjectBtn}>Visit Website</button>
           </a>
           <a
-            href="https://github.com/ShrewdStyle/cloud_web_training"
+            href="https://github.com/ShrewdStyle/Cloud_Web_Training_v3"
             target="_blank"
             rel="noopener noreferrer"
           >
