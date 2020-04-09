@@ -18,6 +18,9 @@ const ProjectFour = () => {
       </div>
       <div className={classes.ProjectInfo}>
         <div className={classes.ProjectName}>Everything Cyberpunk 2077</div>
+        <div className={classes.versionUpdate}>
+          ** Version 2 currently in development, due for completion 26/04/20 **
+        </div>
         <div className={classes.ProjectText}>
           A newsletter based on the RPG Cyberpunk 2077 which is currently being
           developed by CD Projekt Red.
