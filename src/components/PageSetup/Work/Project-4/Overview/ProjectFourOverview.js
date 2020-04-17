@@ -81,7 +81,7 @@ const ProjectFourOverview = () => {
             <button className={classes.ProjectBtn}>Visit Website</button>
           </a>
           <a
-            href="https://github.com/ShrewdStyle/Everything-Cyberpunk-2077"
+            href="https://github.com/ShrewdStyle/Everything_Cyberpunk_2077_v2"
             target="_blank"
             rel="noopener noreferrer"
           >
