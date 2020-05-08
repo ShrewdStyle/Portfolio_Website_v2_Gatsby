@@ -32,12 +32,6 @@
   font-size: 53px;
 }
 
-.versionUpdate {
-  font-size: 22px;
-  padding-top: 2rem;
-  color: var(--third-color);
-}
-
 .ProjectText {
   font-size: 1.6rem;
   color: var(--grey-color);
