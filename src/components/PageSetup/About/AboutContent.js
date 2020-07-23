@@ -16,8 +16,8 @@ const AboutContent = () => {
       <div className={classes.AboutBodyContainer}>
         <div className={classes.AboutBodyHeader}>Who i Am</div>
         <div className={classes.AboutBodyP}>
-          My name's Jake. I'm a web designer and developer based in Manchester,
-          UK.
+          My name's Jake. I'm a web designer and developer based in Newcastle
+          Upon Tyne, UK.
         </div>
         <div className={classes.AboutBodyP}>
           During the day I’m a 3rd line support technician. During the evenings
