@@ -74,7 +74,7 @@ const ProjectThreeOverview = () => {
         </div>
         <div className={classes.ButtonsContainer}>
           <a
-            href="https://www.cloudwebtraining.com/"
+            href="https://www.cloudwebsolutions.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
