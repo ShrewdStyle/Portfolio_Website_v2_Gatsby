@@ -23,7 +23,7 @@ const ContactMain = () => {
           <div className={classes.Status}>Available</div>
           <div className={classes.StatusText}>
             I'm currently looking for new opportunities from{" "}
-            <span>May 2020.</span>
+            <span>March 2021.</span>
           </div>
         </div>
         <input type="hidden" name="form-name" value="contact-portfolio" />
